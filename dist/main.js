@@ -1,1 +1,1 @@
-console.log("hello wo!");
+(()=>{console.log("hello wor!");const e=document.querySelector("#content"),n=document.createElement("h1");n.textContent="Jack in the Box";const t=document.createElement("img");t.src="/images/VegNews.JackInTheBox.PlantbasedUnChicken.jpg";const c=document.createElement("h3");c.textContent="Vegetarian Chicken",e.appendChild(n),e.appendChild(t),e.appendChild(c)})();
