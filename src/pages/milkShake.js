@@ -1,5 +1,5 @@
 function loadMilkShake() {
-  const contentId = document.querySelector('#content');
+  const contentId = document.querySelector('#food');
 
   if (contentId.hasChildNodes()) {
     while (contentId.firstChild) {
