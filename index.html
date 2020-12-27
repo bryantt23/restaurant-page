@@ -4,8 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      href="/node_modules/tabsy-css/dist/tabsy.css"
+      rel="stylesheet"
+      type="text/css"
+    />
   </head>
   <body>
+    <div class="tabsy">
+      <input type="radio" id="veggie-chicken" name="tab" checked="" />
+      <label class="tabButton" for="veggie-chicken">Vegetarian Chicken</label>
+
+      <input type="radio" id="tacos" name="tab" />
+      <label class="tabButton" for="tacos">Tacos</label>
+
+      <input type="radio" id="milkshake" name="tab" />
+      <label class="tabButton" for="milkshake">Milkshake</label>
+    </div>
+
     <div id="content"></div>
     <script src="main.js"></script>
   </body>
