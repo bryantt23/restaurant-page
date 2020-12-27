@@ -1,6 +1,6 @@
-import loadVeggieChicken from '../pages/veggieChicken';
-import loadTacos from '../pages/tacos';
-import loadMilkShake from '../pages/milkShake';
+import loadVeggieChicken from './pages/veggieChicken';
+import loadTacos from './pages/tacos';
+import loadMilkShake from './pages/milkShake';
 
 const tabs = document.querySelectorAll('input[name="tab"]');
 
