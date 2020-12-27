@@ -10,7 +10,7 @@ function loadTacos() {
   const h1 = document.createElement('h1');
   h1.textContent = 'Jack in the Box';
   const img = document.createElement('img');
-  img.src = '/images/tacos.jpg';
+  img.src = '/dist/images/tacos.jpg';
 
   const h3 = document.createElement('h3');
   h3.textContent = 'Tacos';
