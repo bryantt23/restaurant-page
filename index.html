@@ -9,6 +9,29 @@
       rel="stylesheet"
       type="text/css"
     />
+    <style>
+      body {
+        text-align: center;
+      }
+      .tabButton {
+        padding: 0 10px 0 10px;
+        border: solid white;
+        border-width: 0 1px;
+      }
+      .tabsy {
+        font-size: 20px;
+        border-color: green;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .tabsy > .tabButton {
+        background: black;
+        color: white;
+      }
+      .tabsy > input:checked + label {
+        background: red;
+        color: white;
+      }
+    </style>
   </head>
   <body>
     <div class="tabsy">
