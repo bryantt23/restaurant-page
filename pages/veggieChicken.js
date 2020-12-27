@@ -1,6 +1,11 @@
-function initialPage() {
-  console.log('initialPage!');
+function loadVeggieChicken() {
   const contentId = document.querySelector('#content');
+
+  if (contentId.hasChildNodes()) {
+    while (contentId.firstChild) {
+      contentId.removeChild(contentId.firstChild);
+    }
+  }
 
   const h1 = document.createElement('h1');
   h1.textContent = 'Jack in the Box';
@@ -15,4 +20,4 @@ function initialPage() {
   contentId.appendChild(h3);
 }
 
-export default initialPage;
+export default loadVeggieChicken;
